@@ -1,0 +1,86 @@
+html,
+body {
+  font-family: "Arial", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0f7fa; /* Светлый голубой фон */
+}
+
+main {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35em;
+  background-color: #ffffff; /* Белый фон для основного блока */
+  border-radius: 1em;
+  border: 1px solid #00796b; /* Темно-зеленая граница */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для создания эффекта */
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #004d40; /* Темно-зеленый цвет для заголовка */
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 0.5em;
+  color: #00796b; /* Цвет текста для параграфов (зеленый) */
+}
+
+input {
+  margin: 1em;
+  padding: 0.75em 1.25em;
+  font-size: 1.2rem;
+  border: 1px solid #00796b; /* Зеленая граница для поля ввода */
+  border-radius: 0.5em;
+  outline: none;
+  transition: border-color 0.3s ease; /* Плавный переход для границы */
+}
+
+input:focus {
+  border-color: #004d40; /* Темно-зеленая граница при фокусе */
+}
+
+button {
+  margin: 1em;
+  padding: 0.75em 1.5em;
+  font-size: 1.1rem;
+  background-color: #004d40; /* Темно-зеленый фон */
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #00796b; /* Светло-зеленый цвет при наведении */
+  transform: scale(1.05); /* Легкое увеличение кнопки при наведении */
+}
+
+button:active {
+  transform: scale(0.98); /* Уменьшение кнопки при нажатии */
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1rem;
+  color: #004d40; /* Цвет текста для футера */
+}
+
+footer a {
+  color: #00796b; /* Зеленый цвет для ссылки */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline; /* Подчеркивание при наведении на ссылку */
+}
