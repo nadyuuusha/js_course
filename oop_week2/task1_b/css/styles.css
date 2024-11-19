@@ -1,0 +1,58 @@
+html,
+body {
+    font-family: "Arial", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f7fa; /* Светлый голубой фон */
+}
+
+main {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35em;
+    background-color: #ffffff; /* Белый фон для основного блока */
+    border-radius: 1em;
+    border: 1px solid #00796b; /* Темно-зеленая граница */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для создания эффекта */
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #004d40; /* Темно-зеленый цвет для заголовка */
+    margin-bottom: 1em;
+}
+
+input {
+    margin: 1em;
+    padding: 1em 2em; /* Увеличено поле ввода */
+    font-size: 1.5rem; /* Увеличен шрифт */
+    border: 1px solid #00796b; /* Зеленая граница для поля ввода */
+    border-radius: 0.5em;
+    outline: none;
+    width: 100%; /* Ширина на 100% от доступного пространства */
+    max-width: 300px; /* Ограничена максимальная ширина */
+}
+
+button {
+    margin: 1em;
+    padding: 1em 2em; /* Увеличено поле кнопки */
+    font-size: 1.2rem;
+    background-color: #004d40; /* Темно-зеленый фон */
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 1em;
+    font-size: 1.2rem;
+    color: #00796b; /* Зеленый текст для результата */
+}

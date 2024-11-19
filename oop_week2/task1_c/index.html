@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бадминтон в воскресенье</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Играть или не играть?...</h1>
+
+        
+        <label for="day">День недели:</label>
+        <select id="day">
+            <option value="sunday">Воскресенье</option>
+            <option value="monday">Понедельник</option>
+            <option value="tuesday">Вторник</option>
+            <option value="wednesday">Среда</option>
+            <option value="thursday">Четверг</option>
+            <option value="friday">Пятница</option>
+            <option value="saturday">Суббота</option>
+        </select>
+
+        <label for="temp">Температура:</label>
+        <select id="temp">
+            <option value="cold">Холодно</option>
+            <option value="warm">Тепло</option>
+            <option value="hot">Жарко</option>
+        </select>
+
+        <label for="precipitation">Осадки:</label>
+        <select id="precipitation">
+            <option value="clear">Ясно</option>
+            <option value="cloudy">Облачно</option>
+            <option value="rain">Дождь</option>
+            <option value="snow">Снег</option>
+            <option value="hail">Град</option>
+        </select>
+
+        <label for="wind">Ветер:</label>
+        <select id="wind">
+            <option value="calm">Нет</option>
+            <option value="windy">Есть</option>
+        </select>
+
+        <label for="humidity">Влажность:</label>
+        <select id="humidity">
+            <option value="humi-low">Низкая</option>
+            <option value="humi-high">Высокая</option>
+        </select>
+
+        <button id="submit">Проверить</button>
+
+        <p id="summary"></p>
+    </main>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
