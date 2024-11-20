@@ -1,0 +1,77 @@
+html,
+body {
+    font-family: "Arial", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe0e0;
+}
+
+main {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35em;
+    background-color: #fff3e6; 
+    border-radius: 1em;
+    border: 1px solid #ff7f7f; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff4d4d; 
+    margin-bottom: 1em;
+}
+
+label {
+    margin: 0.5em 0;
+    color: #ff7f7f; 
+    font-size: 1.2rem;
+}
+
+textarea {
+    width: 90%;
+    margin: 1em 0;
+    padding: 0.75em 1.25em;
+    font-size: 1.2rem;
+    border: 1px solid #ff7f7f; 
+    border-radius: 0.5em;
+    outline: none;
+    resize: vertical;
+}
+
+textarea:focus {
+    border-color: #ff4d4d; 
+}
+
+button {
+    margin: 1em;
+    padding: 0.75em 1.5em;
+    font-size: 1.1rem;
+    background-color: #ff4d4d; 
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+#result {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #ffebeb; 
+    border: 1px solid #ff7f7f; 
+    border-radius: 0.5em;
+    color: #ff4d4d; 
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    min-height: 2em;
+}

@@ -1,0 +1,84 @@
+html,
+body {
+    font-family: "Arial", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f7fa;
+}
+
+main {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35em;
+    background-color: #ffffff;
+    border-radius: 1em;
+    border: 1px solid #00796b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #004d40;
+    margin-bottom: 1em;
+}
+
+label {
+    margin: 0.5em 0;
+    color: #00796b;
+    font-size: 1.2rem;
+}
+
+input,
+textarea {
+    width: 90%;
+    margin: 1em 0;
+    padding: 0.75em 1.25em;
+    font-size: 1.2rem;
+    border: 1px solid #00796b;
+    border-radius: 0.5em;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #004d40;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 5em;
+}
+
+button {
+    margin: 1em;
+    padding: 0.75em 1.5em;
+    font-size: 1.1rem;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+#result {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #e0f2f1;
+    border: 1px solid #00796b;
+    border-radius: 0.5em;
+    color: #004d40;
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    min-height: 2em;
+}

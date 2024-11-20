@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Анализ показаний с датчиков</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Анализ показаний с датчиков</h1>
+    <label for="sensorData">Введите строку показаний:</label>
+    <textarea id="sensorData" rows="4" placeholder="Пример: 3744@6646@63-4@461@127"></textarea>
+    <label for="sortBy">Сортировать по:</label>
+    <select id="sortBy">
+      <option value="id">ID датчика</option>
+      <option value="temperature">Средняя температура</option>
+    </select>
+    <button id="processButton">Вычислить</button>
+    <h2>Результат:</h2>
+    <div id="result">Введите данные и нажмите "Вычислить".</div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
