@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                    // Поддержка синтаксиса ES2020
+    "useDefineForClassFields": true,        // Для правильного определения полей классов
+    "module": "ESNext",                     // Использовать модули ESNext (например, import/export)
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // Библиотеки для поддержки ES2020 и работы с DOM
+    "skipLibCheck": true,                   // Пропуск проверки типов в библиотеках
+    "esModuleInterop": true,                // Разрешение на использование CommonJS и ESModules
+    "moduleResolution": "node",             // Разрешение модулей как в Node.js
+    "strict": true,                         // Включение строгой проверки типов
+    "allowImportingTsExtensions": true,     // Разрешение на импорт расширений TypeScript
+    "isolatedModules": true,                // Принудительное изолирование модулей
+    "moduleDetection": "force",             // Принудительное использование модулей
+    "noEmit": true,                         // Не генерировать выходные файлы (для сборки через Vite)
+    "noUnusedLocals": true,                 // Ошибка при наличии неиспользуемых локальных переменных
+    "noUnusedParameters": true,             // Ошибка при наличии неиспользуемых параметров
+    "noFallthroughCasesInSwitch": true,     // Ошибка при отсутствии break в switch
+    "noUncheckedSideEffectImports": true    // Ошибка при импорте, вызывающем побочные эффекты
+  },
+  "include": ["src"]  // Включение папки src для компиляции
+}
