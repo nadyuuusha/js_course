@@ -1,0 +1,16 @@
+{
+  "name": "ts-test-app",
+  "version": "0.0.1",
+  "description": "TypeScript test app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf ./build && tsc --watch"
+  },
+  "author": "volodink",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.8.5",
+    "rimraf": "^5.0.10",
+    "typescript": "^5.2.2"
+  }
+}

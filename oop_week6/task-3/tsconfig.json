@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Основные настройки проекта */
+    "target": "ES2018",                                  /* Версия JavaScript, которая будет сгенерирована */
+    "module": "CommonJS",                                /* Система модулей для вывода */
+    "rootDir": "./src",                                  /* Корневая папка для исходных файлов */
+    "outDir": "./build",                                 /* Папка для скомпилированных файлов */
+    "sourceMap": true,                                   /* Создание sourcemaps для удобства отладки */
+    "removeComments": true,                              /* Удаление комментариев из выходных файлов */
+    "esModuleInterop": true,                             /* Поддержка ES-модулей и CommonJS */
+    "forceConsistentCasingInFileNames": true,             /* Принудительная проверка регистра файлов */
+
+    /* Поддержка JavaScript файлов */
+    "allowJs": true,                                     /* Разрешить использование JavaScript файлов в проекте */
+
+    /* Строгие проверки типов */
+    "strict": true,                                      /* Включение строгих проверок типов */
+    "noImplicitAny": true,                               /* Ошибка для выражений с неявным типом "any" */
+    "skipLibCheck": true                                  /* Пропуск проверки типов в библиотеках */
+  },
+  "include": ["src"],                                    /* Указываем, что папка src содержит исходные файлы */
+  "exclude": ["node_modules"]                            /* Исключаем node_modules из компиляции */
+}

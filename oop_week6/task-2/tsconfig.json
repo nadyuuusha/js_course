@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",                               /* Установить версию JavaScript для компиляции. */
+      "module": "CommonJS",                             /* Указать формат модуля CommonJS (Node.js). */
+      "rootDir": "./src",                               /* Указать корневую директорию исходных файлов. */
+      "outDir": "./build",                              /* Указать папку для скомпилированных файлов. */
+      "removeComments": true,                           /* Удалить комментарии из итогового кода. */
+      "sourceMap": true,                                /* Создавать файлы карт исходников. */
+      "esModuleInterop": true,                          /* Обеспечить совместимость с модулями ES. */
+      "strict": true,                                   /* Включить строгую проверку типов. */
+      "noImplicitAny": true,                            /* Запретить неявный тип `any`. */
+      "forceConsistentCasingInFileNames": true,         /* Убедиться, что регистр в именах файлов согласованный. */
+      "skipLibCheck": true                              /* Пропустить проверку библиотек `.d.ts`. */
+    },
+    "include": ["src"],                                 /* Указать директорию для исходных файлов. */
+    "exclude": ["node_modules", "build"]                /* Исключить папки node_modules и build. */
+  }
